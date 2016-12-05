@@ -9,6 +9,7 @@ page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
 
+
 # With alternative layout
 # page "/path/to/file.html", layout: :otherlayout
 
@@ -31,6 +32,7 @@ page '/*.txt', layout: false
 
 # Build-specific configuration
 configure :build do
+  set :build_dir, 'docs'
   # Minify CSS on build
   # activate :minify_css
 
