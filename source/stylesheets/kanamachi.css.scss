@@ -8,6 +8,9 @@
       color: #767676;
       background-color: #F3C859;
     }
+    .icon-bar{
+      background-color: #fff;
+    }
   }
 }
 
@@ -27,7 +30,11 @@
       vertical-align: middle;
       text-align: center;
       color: #fff;
-      text-shadow: black 1px 1px 1px;
+      text-shadow: 2px  2px 5px gray,
+            -2px  2px 5px gray,
+             2px -2px 5px gray,
+            -2px -2px 5px gray;
+      font-size: 40px;
     }
   }
 }

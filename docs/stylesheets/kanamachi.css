@@ -5,6 +5,8 @@
   .header .navbar-custom .navbar-link:hover {
     color: #767676;
     background-color: #F3C859; }
+  .header .navbar-custom .icon-bar {
+    background-color: #fff; }
 
 .home {
   width: 100%;
@@ -22,4 +24,5 @@
       vertical-align: middle;
       text-align: center;
       color: #fff;
-      text-shadow: black 1px 1px 1px; }
+      text-shadow: 2px  2px 5px gray, -2px  2px 5px gray, 2px -2px 5px gray, -2px -2px 5px gray;
+      font-size: 40px; }
