@@ -1,3 +1,7 @@
+*{
+  box-sizing: border-box;
+}
+
 .header{
   .navbar-custom{
     background-color: #F3C859;
@@ -38,6 +42,31 @@
       font-size: 40px;
       letter-spacing: 0.2em;
     }
+  }
+}
+
+.pickup{
+  .h-msg{
+    letter-spacing: 0.15em;
+    margin: 15px 0 65px;
+    font-size: 28px;
+    color: #000;
+  }
+  .content-box{
+    margin: 25px 0;
+    text-align: center;
+    .content-box-title{
+      margin-top: 30px;
+      font-size: 18px;
+      font-weight: 700;
+    }
+    .content-box-text{
+      margin: 15px 0 0;
+      text-align: left;
+    }
+  }
+  .padding-box{
+    padding: 25px;
   }
 }
 
