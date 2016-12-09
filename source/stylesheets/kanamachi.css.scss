@@ -46,6 +46,7 @@
 }
 
 .pickup{
+  background-color: #f5f5f5;
   padding: 70px;
   .h-msg{
     letter-spacing: 0.15em;
@@ -68,6 +69,16 @@
   }
   .padding-box{
     padding: 25px;
+  }
+}
+
+.spot{
+  padding: 70px;
+  .h-msg{
+    letter-spacing: 0.15em;
+    margin: 15px 0 65px;
+    font-size: 28px;
+    color: #000;
   }
 }
 
