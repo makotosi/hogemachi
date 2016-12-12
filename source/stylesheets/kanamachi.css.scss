@@ -93,7 +93,7 @@
 }
 
 .about{
-  padding: 50px 0;
+  padding-top: 50px;
   .about-title{
     font-size: 30px;
     margin-bottom: 40px;
@@ -114,5 +114,12 @@
   .list-group-item{
     letter-spacing: 0.1em;
     line-height: 30px;
+  }
+  .contact-button{
+    padding: 50px;
+    .btn{
+      font-size: 25px;
+      padding: 12px 24px;
+    }
   }
 }
