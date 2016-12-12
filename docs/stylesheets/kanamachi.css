@@ -93,3 +93,14 @@
     .about .contact-button .btn {
       font-size: 25px;
       padding: 12px 24px; }
+
+.news {
+  padding: 70px; }
+  .news .h-msg {
+    letter-spacing: 0.15em;
+    margin: 15px 0 65px;
+    font-size: 28px;
+    color: #000; }
+  .news .tweet-box {
+    width: 50%;
+    margin: auto; }
