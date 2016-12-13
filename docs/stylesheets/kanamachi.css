@@ -32,8 +32,20 @@
       font-size: 40px;
       letter-spacing: 0.2em; }
 
-.pickup {
+.news {
   background-color: #f5f5f5;
+  padding: 70px; }
+  .news .h-msg {
+    letter-spacing: 0.15em;
+    margin: 15px 0 65px;
+    font-size: 28px;
+    color: #000; }
+  .news .tweet-box {
+    max-width: 401px;
+    margin: auto; }
+
+.pickup {
+  background-color: #fff;
   padding: 70px; }
   .pickup .h-msg {
     letter-spacing: 0.15em;
@@ -52,14 +64,6 @@
       text-align: left; }
   .pickup .padding-box {
     padding: 25px; }
-
-.spot {
-  padding: 70px; }
-  .spot .h-msg {
-    letter-spacing: 0.15em;
-    margin: 15px 0 65px;
-    font-size: 28px;
-    color: #000; }
 
 .footer-bottom {
   background-color: #f5f5f5;
@@ -93,14 +97,3 @@
     .about .contact-button .btn {
       font-size: 25px;
       padding: 12px 24px; }
-
-.news {
-  padding: 70px; }
-  .news .h-msg {
-    letter-spacing: 0.15em;
-    margin: 15px 0 65px;
-    font-size: 28px;
-    color: #000; }
-  .news .tweet-box {
-    max-width: 401px;
-    margin: auto; }
