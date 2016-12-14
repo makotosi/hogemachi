@@ -55,10 +55,16 @@
   .pickup .content-box {
     margin: 25px 0;
     text-align: center; }
+    .pickup .content-box .pickup-link {
+      color: #000; }
+    .pickup .content-box .pickup-link:hover {
+      color: #F3C859;
+      text-decoration: none; }
     .pickup .content-box .content-box-title {
       margin-top: 30px;
       font-size: 18px;
-      font-weight: 700; }
+      font-weight: 700;
+      text-decoration: underline; }
     .pickup .content-box .content-box-text {
       margin: 15px 0 0;
       text-align: left; }

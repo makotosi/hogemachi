@@ -72,10 +72,18 @@
   .content-box{
     margin: 25px 0;
     text-align: center;
+    .pickup-link{
+      color: #000;
+    }
+    .pickup-link:hover{
+      color: #F3C859;
+      text-decoration: none;
+    }
     .content-box-title{
       margin-top: 30px;
       font-size: 18px;
       font-weight: 700;
+      text-decoration: underline;
     }
     .content-box-text{
       margin: 15px 0 0;
