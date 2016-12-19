@@ -11,6 +11,7 @@ page '/*.txt', layout: false
 
 page "/about/*", :layout => "about"
 page "/ramen/*", :layout => "ramen"
+page "/park/*", :layout => "park"
 
 
 # With alternative layout
