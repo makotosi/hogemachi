@@ -10,8 +10,9 @@ page '/*.json', layout: false
 page '/*.txt', layout: false
 
 page "/about/*", :layout => "about"
-page "/ramen/*", :layout => "ramen"
-page "/park/*", :layout => "park"
+page "/ramen/*", :layout => "other"
+page "/park/*", :layout => "other"
+page "/bank/*", :layout => "other"
 
 
 # With alternative layout

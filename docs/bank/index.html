@@ -6,7 +6,7 @@
     <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
 
     <!-- Use title if it's in the page YAML frontmatter -->
-    <title>金町.tokyo</title>
+    <title>金町の銀行他</title>
     <meta name=”Description” content=”保育園事情、住宅情報、子育て情報、イベント情報、レストラン、スイーツ、公園、図書館、教習所等の情報が揃う金町の総合情報サイトです。” />
 
     <link href='//fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
@@ -24,12 +24,12 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
-    <link href="stylesheets/site.css" rel="stylesheet" />
-    <link href="stylesheets/kanamachi.css" rel="stylesheet" />
-    <script src="javascripts/all.js"></script>
+    <link href="../stylesheets/site.css" rel="stylesheet" />
+    <link href="../stylesheets/kanamachi.css" rel="stylesheet" />
+    <script src="../javascripts/all.js"></script>
   </head>
 
-  <body class="index">
+  <body class="bank bank_index">
     <section id="header" class="header">
   <nav class="navbar navbar-fixed-top navbar-custom">
     <div class="container">
@@ -42,10 +42,10 @@
       <div id="navi" class="collapse navbar-collapse">
 
         <ul class="nav navbar-nav">
-          <li><a href="./" class="navbar-link">HOME</a></li>
-          <li><a href="#news" class="navbar-link">新着情報</a></li>
-          <li><a href="./about/" class="navbar-link">金町.tokyoとは</a></li>
-          <li><a href="#pickup" class="navbar-link">テーマ別特集</a></li>
+          <li><a href="../" class="navbar-link">HOME</a></li>
+          <li><a href="../#news" class="navbar-link">新着情報</a></li>
+          <li><a href="../about" class="navbar-link">金町.tokyoとは</a></li>
+          <li><a href="../#pickup" class="navbar-link">テーマ別特集</a></li>
           <li><a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScvt0z_QpvG-pgLrVr8nyeY09GySS5HCVBdM3QOMZ8FgksVKg/viewform" class="navbar-link">お問い合わせ</a></li>
           <li><a target="_blank" href="https://twitter.com/DrKanamachi" class="navbar-link"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a></li>
         </ul>
@@ -54,95 +54,22 @@
   </nav>
 </section>
 
-
-<section id="home" class="home">
-  <div class="container top-box">
-    <div class="top-inside">
-      ようこそ<br />
-      金町へ
-    </div>
-  </div>
-</section>
-
-
-<section id="news" class="news">
+<section id="ramen" class="others">
   <div class="container">
     <div class="col-sm-12">
-      <h2 class="h-msg text-center">新着情報</h2>
-    </div>
-    <div class="tweet-box">
-      <a class="twitter-timeline" data-width="400" data-height="700" href="https://twitter.com/DrKanamachi">Tweets by DrKanamachi</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-    </div>
-  </div>
-</section>
-
-
-<section id="pickup" class="pickup">
-  <div class="container">
-    <div class="col-sm-12">
-      <h2 class="h-msg text-center">テーマ別特集</h2>
-    </div>
-    <div class="col-sm-3">
-      <div class="content-box padding-box">
-        <a href="./ramen" class="pickup-link">
-          <div class="content-box-img">
-            <i class="fa fa-cutlery fa-5x" aria-hidden="true"></i>
-          </div>
-          <div class="content-box-title text-center">
-            ラーメン
-          </div>
-          <div class="content-box-text">
-           本当に美味しい金町のラーメン屋 
-          </div>
-        </a>
+      <h2 class="others-title text-center">金町の銀行</h2>
+      <div class="others-summary">
+        東京都葛飾区金町周辺の銀行、郵便局、信用金庫を紹介。随時更新。 
       </div>
-    </div>
-    <div class="col-sm-3">
-      <div class="content-box padding-box">
-        <a href="./park" class="pickup-link">
-          <div class="content-box-img">
-            <i class="fa fa-futbol-o fa-5x" aria-hidden="true"></i>
-          </div>
-          <div class="content-box-title text-center">
-            遊ぶ
-          </div>
-          <div class="content-box-text">
-            金町で遊べるオススメの公園
-          </div>
-        </a>
+      <div class="maps-title">
+        銀行MAP
       </div>
-    </div>
-    <div class="col-sm-3">
-      <div class="content-box padding-box">
-        <a href="./bank" class="pickup-link">
-          <div class="content-box-img">
-            <i class="fa fa-home fa-5x" aria-hidden="true"></i>
-          </div>
-          <div class="content-box-title text-center">
-            お金
-          </div>
-          <div class="content-box-text">
-            金町の銀行・郵便局・信用金庫
-          </div>
-        </a>
-      </div>
-    </div>
-    <div class="col-sm-3">
-      <div class="content-box padding-box">
-        <div class="content-box-img">
-          <i class="fa fa-home fa-5x" aria-hidden="true"></i>
-        </div>
-        <div class="content-box-title text-center">
-          買って住む
-        </div>
-        <div class="content-box-text">
-          金町で販売中の不動産を網羅
-        </div>
+      <div class="maps">
+        <iframe src="https://www.google.com/maps/d/embed?mid=1VA6kCX7s3uUCjAbayscpLq1UD-E&hl=ja" width="640" height="480"></iframe>
       </div>
     </div>
   </div>
 </section>
-
 
 <footer class="footer-bottom">
   <div class="container">
