@@ -150,7 +150,7 @@
     color: #5f5f5f;
     line-height: 40px;
   }
-  .maps-title{
+  .content-title{
     padding: 20px 10px;
     background-color: #f5f5f5;
     margin: 30px 0;
@@ -161,6 +161,16 @@
     text-align: center;
     padding-top: 20px;
     padding-bottom: 50px;
+  }
+  .content{
+    padding-top: 20px;
+    padding-bottom: 50px;
+  }
+  .catch{
+    padding-left: 10px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    letter-spacing: 0.1em;
   }
 }
 
