@@ -124,7 +124,9 @@
   .others .maps {
     text-align: center;
     padding-top: 20px;
-    padding-bottom: 50px; }
+    padding-bottom: 50px;
+    width: 640px;
+    margin: 0 auto; }
   .others .content {
     padding-top: 20px;
     padding-bottom: 50px; }
@@ -134,5 +136,14 @@
     font-size: 20px;
     letter-spacing: 0.1em;
     line-height: 28px; }
+  .others .photos {
+    width: 640px;
+    margin: 0 auto; }
   .others .content-photo {
-    margin-bottom: 50px; }
+    margin-bottom: 50px;
+    border-radius: 80px; }
+  @media only screen and (max-width: 760px) {
+    .others .maps {
+      width: 100%; }
+    .others .photos {
+      width: 80%; } }
