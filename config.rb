@@ -14,6 +14,7 @@ page "/ramen/*", :layout => "other"
 page "/park/*", :layout => "other"
 page "/bank/*", :layout => "other"
 page "/homes/*", :layout => "other"
+page "/sweets/*", :layout => "other"
 
 
 # With alternative layout
